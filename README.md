@@ -250,7 +250,3 @@ talib - 1.1.2
 node - 12.10.0
 binaryen - 89
 ```
-
-
-## Support developer
-**_If you like this package - support me on [Buy me a coffee](https://buymeacoff.ee/oItObEGUm)._**
