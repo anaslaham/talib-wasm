@@ -1,0 +1,1 @@
+rm ./build/talib.js ./build/talib.wrapped.js ./build/talib.wrapped.min.js

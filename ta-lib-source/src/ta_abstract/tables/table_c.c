@@ -1,4 +1,4 @@
-/* TA-LIB Copyright (c) 1999-2007, Mario Fortier
+/* TA-LIB Copyright (c) 1999-2008, Mario Fortier
  * All rights reserved.
  *
  * Redistribution and use in source and binary forms, with or
@@ -1535,7 +1535,7 @@ static const TA_OptInputParameterInfo *TA_CDLSTICKSANDWICH_OptInputs[] =
 DEF_FUNCTION( CDLSTICKSANDWICH,               /* name */
               TA_GroupId_PatternRecognition,  /* groupId */
               "Stick Sandwich",               /* hint */
-			  "CdlStickSandwhich",            /* CamelCase name */
+			  "CdlStickSandwich",            /* CamelCase name */
               TA_FUNC_FLG_CANDLESTICK         /* flags */
              );
 

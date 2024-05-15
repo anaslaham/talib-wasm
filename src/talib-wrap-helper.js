@@ -1,5 +1,5 @@
 Module.ready = new Promise(function (resolve, reject) {
-    addOnPreMain(function() {
+    addOnInit(function () {
         resolve(Module);
     });
 
@@ -8,7 +8,7 @@ Module.ready = new Promise(function (resolve, reject) {
     // and could break in the future.
     // Rewrite existing abort(what) function to reject Promise before it executes.
     var origAbort = this.abort;
-    this.abort = function(what) {
+    this.abort = function (what) {
         reject(Error(what));
         origAbort.call(this, what);
     }

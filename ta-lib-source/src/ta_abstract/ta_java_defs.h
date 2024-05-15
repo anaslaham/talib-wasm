@@ -1,4 +1,4 @@
-/* TA-LIB Copyright (c) 1999-2007, Mario Fortier
+/* TA-LIB Copyright (c) 1999-2008, Mario Fortier
  * All rights reserved.
  *
  * Redistribution and use in source and binary forms, with or
@@ -38,6 +38,8 @@
  * likely the case), just ignore this file.
  */
  
+#define TA_ACCBANDS_Lookback accbandsLookback
+#define TA_ACCBANDS accbands
 #define TA_ACOS_Lookback acosLookback
 #define TA_ACOS acos
 #define TA_AD_Lookback adLookback
@@ -64,6 +66,8 @@
 #define TA_ATR atr
 #define TA_AVGPRICE_Lookback avgPriceLookback
 #define TA_AVGPRICE avgPrice
+#define TA_AVGDEV_Lookback avgDevLookback
+#define TA_AVGDEV avgDev
 #define TA_BBANDS_Lookback bbandsLookback
 #define TA_BBANDS bbands
 #define TA_BETA_Lookback betaLookback
@@ -178,8 +182,8 @@
 #define TA_CDLSPINNINGTOP cdlSpinningTop
 #define TA_CDLSTALLEDPATTERN_Lookback cdlStalledPatternLookback
 #define TA_CDLSTALLEDPATTERN cdlStalledPattern
-#define TA_CDLSTICKSANDWICH_Lookback cdlStickSandwhichLookback
-#define TA_CDLSTICKSANDWICH cdlStickSandwhich
+#define TA_CDLSTICKSANDWICH_Lookback cdlStickSandwichLookback
+#define TA_CDLSTICKSANDWICH cdlStickSandwich
 #define TA_CDLTAKURI_Lookback cdlTakuriLookback
 #define TA_CDLTAKURI cdlTakuri
 #define TA_CDLTASUKIGAP_Lookback cdlTasukiGapLookback
@@ -228,6 +232,8 @@
 #define TA_HT_TRENDLINE htTrendline
 #define TA_HT_TRENDMODE_Lookback htTrendModeLookback
 #define TA_HT_TRENDMODE htTrendMode
+#define TA_IMI_Lookback imiLookback
+#define TA_IMI imi
 #define TA_KAMA_Lookback kamaLookback
 #define TA_KAMA kama
 #define TA_LINEARREG_Lookback linearRegLookback

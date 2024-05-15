@@ -1,4 +1,4 @@
-/* TA-LIB Copyright (c) 1999-2007, Mario Fortier
+/* TA-LIB Copyright (c) 1999-2008, Mario Fortier
  * All rights reserved.
  *
  * Redistribution and use in source and binary forms, with or
@@ -194,6 +194,7 @@ static TA_RetCode rangeTestFunction( TA_Integer    startIdx,
                          outNbElement,
                          outputBuffer );
       *lookback = TA_TRIX_Lookback( testParam->test->optInTimePeriod );
+      break;
    default:
       retCode = TA_INTERNAL_ERROR(131);
    } 

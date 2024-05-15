@@ -3,8 +3,6 @@ An emscripten wrapper around TA-LIB, that allows you to use technical analysis l
 
 Supports typescript types.
 
-[![Support developer](readme-assets/buymeacoffee.png)](https://buymeacoff.ee/oItObEGUm)
-
 ## Installation
 To install the most recent release from npm, run:
 
